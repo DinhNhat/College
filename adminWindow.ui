@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1065</width>
+    <height>598</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QMdiArea" name="mdiAreaAdmin">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1041</width>
+      <height>561</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1065</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionPrint"/>
+    <addaction name="actionClose"/>
+   </widget>
+   <widget class="QMenu" name="menuRoles">
+    <property name="title">
+     <string>Roles</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionAdmin"/>
+    <addaction name="separator"/>
+    <addaction name="actionProfessor"/>
+    <addaction name="separator"/>
+    <addaction name="actionStudent"/>
+    <addaction name="separator"/>
+    <addaction name="actionStaff"/>
+   </widget>
+   <widget class="QMenu" name="menuResources">
+    <property name="title">
+     <string>Resources</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionCourse"/>
+    <addaction name="separator"/>
+    <addaction name="actionClassroom"/>
+    <addaction name="separator"/>
+    <addaction name="actionAcademic_Program"/>
+    <addaction name="separator"/>
+    <addaction name="actionProfessor_Degree"/>
+    <addaction name="separator"/>
+    <addaction name="actionSchedule"/>
+    <addaction name="separator"/>
+    <addaction name="actionStudentEnrolment"/>
+   </widget>
+   <widget class="QMenu" name="menusettings">
+    <property name="title">
+     <string>Settings</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionSet_color"/>
+    <addaction name="separator"/>
+    <addaction name="actionChange_password"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuRoles"/>
+   <addaction name="menuResources"/>
+   <addaction name="menusettings"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAdmin">
+   <property name="text">
+    <string>Admin</string>
+   </property>
+  </action>
+  <action name="actionProfessor">
+   <property name="text">
+    <string>Professor</string>
+   </property>
+  </action>
+  <action name="actionStudent">
+   <property name="text">
+    <string>Student</string>
+   </property>
+  </action>
+  <action name="actionStaff">
+   <property name="text">
+    <string>Staff</string>
+   </property>
+  </action>
+  <action name="actionAcademic_Program">
+   <property name="text">
+    <string>Academic Program</string>
+   </property>
+  </action>
+  <action name="actionCourse">
+   <property name="text">
+    <string>Course</string>
+   </property>
+  </action>
+  <action name="actionProfessor_Degree">
+   <property name="text">
+    <string>Professor Degree</string>
+   </property>
+  </action>
+  <action name="actionClassroom">
+   <property name="text">
+    <string>Classroom</string>
+   </property>
+  </action>
+  <action name="actionPrint">
+   <property name="text">
+    <string>Print...</string>
+   </property>
+  </action>
+  <action name="actionSet_color">
+   <property name="text">
+    <string>Set color</string>
+   </property>
+  </action>
+  <action name="actionClose">
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionChange_password">
+   <property name="text">
+    <string>Change password</string>
+   </property>
+  </action>
+  <action name="actionSchedule">
+   <property name="text">
+    <string>Schedule</string>
+   </property>
+  </action>
+  <action name="actionStudentEnrolment">
+   <property name="text">
+    <string>Student Enrolment</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
